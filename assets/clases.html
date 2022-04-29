@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo clases</title>
+  <link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto+Slab:wght@100&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<body>
+  <header class="p-3 text-white">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+            <use xlink:href="#bootstrap" /></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="/index.html" class="nav-link px-2 text-secondary">Inicio</a></li>
+          <li><a href="clases.html" class="nav-link px-2 text-white">Clases</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Alumnxs</a></li>
+          <li><a href="contacto.html" class="nav-link px-2 text-white">Contacto</a></li>
+        </ul>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2">Iniciar sesión</button>
+          <button type="button" class="btn btn-warning">Registrarse</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <h1>Clases</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="btn-group-vertical" role="group" aria-label="Basic example">
+            <p> Filtrar por:</p>
+            <div>
+              <button type="button" class="btn" data-bs-toggle="collapse"
+                data-bs-target="#collapse1">Materia</button>
+              <div class="collapse" id="collapse1">
+                <input type="search" class="form-control" aria-label="Search" id="buscar1">
+              </div>
+            </div>
+            <div>
+              <button type="button" class="btn " data-bs-toggle="collapse"
+                data-bs-target="#collapse2">Precio</button>
+              <div class="collapse" id="collapse2">
+                <input type="search" class="form-control" aria-label="Search" id="buscar2">
+              </div>
+            </div>
+            <div>
+              <button type="button" class="btn " data-bs-toggle="collapse"
+                data-bs-target="#collapse3">Docente</button>
+              <div class="collapse" id="collapse3">
+                <input type="search" class="form-control" aria-label="Search" id="buscar3">
+              </div>
+            </div>
+
+            <button id="btnFiltrar">Enviar</button>
+          </div>
+
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="#" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title matematica">Clases de matemática</h5>
+              <p class="card-text juana">Docente: Juana</p>
+              <p class="card-text 700">Precio por hora: $700</p>
+              <button type="button" class="btn btn-primary">Primary</button>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="#" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Clases de física</h5>
+              <p class="card-text">Docente: Esteban</p>
+              <p class="card-text">Precio por hora: $650</p>
+              <button type="button" class="btn btn-primary">Primary</button>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="#" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Clases de historia</h5>
+              <p class="card-text">Docente: Ana</p>
+              <p class="card-text">Precio por hora: $1000</p>
+              <button type="button" class="btn btn-primary">Primary</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="#" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Clases de inglés</h5>
+              <p class="card-text">Docente: Agustín</p>
+              <p class="card-text">Precio por hora: $900</p>
+              <button type="button" class="btn btn-primary">Primary</button>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="#" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Clases de literatura</h5>
+              <p class="card-text">Docente: Maricel</p>
+              <p class="card-text">Precio por hora: $600</p>
+              <button type="button" class="btn btn-primary">Primary</button>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="#" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Clases de historia</h5>
+              <p class="card-text">Docente: Canela</p>
+              <p class="card-text">Precio por hora: $1100</p>
+              <button type="button" class="btn btn-primary">Primary</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="#" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Clases de química</h5>
+              <p class="card-text">Docente: Javier</p>
+              <p class="card-text">Precio por hora: $800</p>
+              <button type="button" class="btn btn-primary">Primary</button>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="#" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title matematica">Clases de matemática</h5>
+              <p class="card-text martina">Docente: Martina</p>
+              <p class="card-text 900">Precio por hora: $900</p>
+              <button type="button" class="btn btn-primary">Primary</button>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="#" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Clases de literatura</h5>
+              <p class="card-text">Docente: Andrea</p>
+              <p class="card-text">Precio por hora: $850</p>
+              <button type="button" class="btn btn-primary">Primary</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer class="text-white ps-2 mt-5">
+    <p>&copy; Copyright 2022, desarrollado por Tomás A. De Lazzer | Todos los derechos reservados</p>
+  </footer>
+
+  <script src="/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+  <script src="/archivosJS/clases.js"></script>
+</body>
+
+</html>
